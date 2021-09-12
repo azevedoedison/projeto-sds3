@@ -1,1 +1,2 @@
-export const BASE_URL = 'http://localhost:8080'
+export const BASE_URL = process.env.REACT_APP_BACKEND_URL ?? 'http://localhost:8080';
+// ?? É UM APLICADOR DE COALESCENCIA NULA. SE A VARIÁVEL NÃO ESTIVER DEFINIDA NO AMBIENTE, ELE ATRIBUI O VALOR DA DIRETA.
