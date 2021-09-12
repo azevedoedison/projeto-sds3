@@ -1,0 +1,1 @@
+Project created on Spring React week of @DevSuperior, with React on the frontend and Spring on the backend and publishing the frontend on Netlify and the backend on the Heroku. 
